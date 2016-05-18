@@ -19,8 +19,8 @@
 		73C1C93B1CEC4CBE00425D5F /* EAThemeDemo.html in Resources */ = {isa = PBXBuildFile; fileRef = 73C1C9311CEC4CBE00425D5F /* EAThemeDemo.html */; };
 		73C1C93C1CEC4CBE00425D5F /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C1C9341CEC4CBE00425D5F /* SettingViewController.m */; };
 		73C1C93D1CEC4CBE00425D5F /* ThemesSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C1C9361CEC4CBE00425D5F /* ThemesSettingViewController.m */; };
-		73C1C9471CEC4DA400425D5F /* EAThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C1C9441CEC4DA400425D5F /* EAThemeManager.m */; };
-		73C1C9481CEC4DA400425D5F /* UIView+EATheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C1C9461CEC4DA400425D5F /* UIView+EATheme.m */; };
+		73C1C95D1CEC74CC00425D5F /* EAThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C1C95A1CEC74CC00425D5F /* EAThemeManager.m */; };
+		73C1C95E1CEC74CC00425D5F /* UIView+EATheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C1C95C1CEC74CC00425D5F /* UIView+EATheme.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,13 +45,13 @@
 		73C1C9341CEC4CBE00425D5F /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
 		73C1C9351CEC4CBE00425D5F /* ThemesSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThemesSettingViewController.h; sourceTree = "<group>"; };
 		73C1C9361CEC4CBE00425D5F /* ThemesSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThemesSettingViewController.m; sourceTree = "<group>"; };
-		73C1C93F1CEC4DA400425D5F /* EATheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EATheme.h; sourceTree = "<group>"; };
-		73C1C9401CEC4DA400425D5F /* EAThemesConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAThemesConfiguration.h; sourceTree = "<group>"; };
-		73C1C9421CEC4DA400425D5F /* EA_metamacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EA_metamacros.h; sourceTree = "<group>"; };
-		73C1C9431CEC4DA400425D5F /* EAThemeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAThemeManager.h; sourceTree = "<group>"; };
-		73C1C9441CEC4DA400425D5F /* EAThemeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAThemeManager.m; sourceTree = "<group>"; };
-		73C1C9451CEC4DA400425D5F /* UIView+EATheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+EATheme.h"; sourceTree = "<group>"; };
-		73C1C9461CEC4DA400425D5F /* UIView+EATheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+EATheme.m"; sourceTree = "<group>"; };
+		73C1C9551CEC74CC00425D5F /* EATheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EATheme.h; sourceTree = "<group>"; };
+		73C1C9561CEC74CC00425D5F /* EAThemesConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAThemesConfiguration.h; sourceTree = "<group>"; };
+		73C1C9581CEC74CC00425D5F /* EA_metamacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EA_metamacros.h; sourceTree = "<group>"; };
+		73C1C9591CEC74CC00425D5F /* EAThemeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAThemeManager.h; sourceTree = "<group>"; };
+		73C1C95A1CEC74CC00425D5F /* EAThemeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAThemeManager.m; sourceTree = "<group>"; };
+		73C1C95B1CEC74CC00425D5F /* UIView+EATheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+EATheme.h"; sourceTree = "<group>"; };
+		73C1C95C1CEC74CC00425D5F /* UIView+EATheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+EATheme.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +68,7 @@
 		73C1C8B31CEB0F1D00425D5F = {
 			isa = PBXGroup;
 			children = (
+				73C1C9541CEC74CC00425D5F /* EATheme */,
 				73C1C8BE1CEB0F1D00425D5F /* EAThemeSample */,
 				73C1C8BD1CEB0F1D00425D5F /* Products */,
 			);
@@ -84,7 +85,6 @@
 		73C1C8BE1CEB0F1D00425D5F /* EAThemeSample */ = {
 			isa = PBXGroup;
 			children = (
-				73C1C93E1CEC4DA400425D5F /* EATheme */,
 				73C1C9251CEC4CBE00425D5F /* Demo */,
 				73C1C8C21CEB0F1D00425D5F /* AppDelegate.h */,
 				73C1C8C31CEB0F1D00425D5F /* AppDelegate.m */,
@@ -157,24 +157,24 @@
 			path = Settings;
 			sourceTree = "<group>";
 		};
-		73C1C93E1CEC4DA400425D5F /* EATheme */ = {
+		73C1C9541CEC74CC00425D5F /* EATheme */ = {
 			isa = PBXGroup;
 			children = (
-				73C1C93F1CEC4DA400425D5F /* EATheme.h */,
-				73C1C9401CEC4DA400425D5F /* EAThemesConfiguration.h */,
-				73C1C9411CEC4DA400425D5F /* Handle */,
+				73C1C9551CEC74CC00425D5F /* EATheme.h */,
+				73C1C9561CEC74CC00425D5F /* EAThemesConfiguration.h */,
+				73C1C9571CEC74CC00425D5F /* Handle */,
 			);
 			path = EATheme;
 			sourceTree = "<group>";
 		};
-		73C1C9411CEC4DA400425D5F /* Handle */ = {
+		73C1C9571CEC74CC00425D5F /* Handle */ = {
 			isa = PBXGroup;
 			children = (
-				73C1C9421CEC4DA400425D5F /* EA_metamacros.h */,
-				73C1C9431CEC4DA400425D5F /* EAThemeManager.h */,
-				73C1C9441CEC4DA400425D5F /* EAThemeManager.m */,
-				73C1C9451CEC4DA400425D5F /* UIView+EATheme.h */,
-				73C1C9461CEC4DA400425D5F /* UIView+EATheme.m */,
+				73C1C9581CEC74CC00425D5F /* EA_metamacros.h */,
+				73C1C9591CEC74CC00425D5F /* EAThemeManager.h */,
+				73C1C95A1CEC74CC00425D5F /* EAThemeManager.m */,
+				73C1C95B1CEC74CC00425D5F /* UIView+EATheme.h */,
+				73C1C95C1CEC74CC00425D5F /* UIView+EATheme.m */,
 			);
 			path = Handle;
 			sourceTree = "<group>";
@@ -252,13 +252,13 @@
 			files = (
 				73C1C9371CEC4CBE00425D5F /* BaseNavigationController.m in Sources */,
 				73C1C9391CEC4CBE00425D5F /* DetailViewController.m in Sources */,
-				73C1C9481CEC4DA400425D5F /* UIView+EATheme.m in Sources */,
+				73C1C95E1CEC74CC00425D5F /* UIView+EATheme.m in Sources */,
 				73C1C8C41CEB0F1D00425D5F /* AppDelegate.m in Sources */,
 				73C1C93A1CEC4CBE00425D5F /* HomeViewController.m in Sources */,
 				73C1C8C11CEB0F1D00425D5F /* main.m in Sources */,
 				73C1C9381CEC4CBE00425D5F /* BaseViewController.m in Sources */,
 				73C1C93D1CEC4CBE00425D5F /* ThemesSettingViewController.m in Sources */,
-				73C1C9471CEC4DA400425D5F /* EAThemeManager.m in Sources */,
+				73C1C95D1CEC74CC00425D5F /* EAThemeManager.m in Sources */,
 				73C1C93C1CEC4CBE00425D5F /* SettingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -406,6 +406,7 @@
 				73C1C8D51CEB0F1D00425D5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

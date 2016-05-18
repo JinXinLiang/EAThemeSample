@@ -24,8 +24,8 @@ Pod::Spec.new do |s|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = <<-DESC
-                   DESC
+  # s.description  = <<-DESC
+  #                 DESC
 
   s.homepage     = "https://github.com/JinXinLiang/EAThemeSample"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -38,7 +38,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT (example)"
+  s.license      = 'MIT'
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -52,7 +52,7 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { “Eiwodetianna” => "jinxinliang1993@gmail.com" }
+    s.author       = { "Eiwodetianna" => "jinxinliang1993@gmail.com" }
   # Or just: s.author    = “Eiwodetianna”
   # s.authors            = { “Eiwodetianna” => "jinxinliang1993@gmail.com" }
   # s.social_media_url   = "http://twitter.com/金鑫亮"
@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "hhttps://github.com/JinXinLiang/EAThemeSample.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/JinXinLiang/EAThemeSample.git", :tag => s.version }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
