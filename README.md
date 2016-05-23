@@ -4,7 +4,7 @@
    
 （1）使用CocoaPods,在Podfile中使用:   
 
-	pod 'EATheme', '~> 1.1.0' 
+	pod 'EATheme', '~> 1.1.1' 
 	
 （2）移步GitHub,点击[EAThemeSample](https://github.com/JinXinLiang/EAThemeSample)下载，将demo中的EATheme文件夹直接引入到你的工程。
 **在项目中引入主头文件**

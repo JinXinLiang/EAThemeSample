@@ -9,14 +9,14 @@
 Pod::Spec.new do |s|
 
   s.name         = "EATheme"
-  s.version      = "1.1.0"
+  s.version      = “1.1.1”
   s.summary      = "Change your application’s theme!"
   s.homepage     = "https://github.com/JinXinLiang/EAThemeSample"
   s.license      = 'MIT'
   s.author       = { "Eiwodetianna" => "jinxinliang1993@gmail.com" }
   s.platform     = :ios, "6.0"
   s.source       = { :git => "https://github.com/JinXinLiang/EAThemeSample.git", :tag => s.version }
-  s.source_files  = "EAThemeSample", "EATheme/**/*.{h,m}"
+  s.source_files  = "EATheme", "EATheme/**/*.{h,m}"
   s.requires_arc = true
 
 end
