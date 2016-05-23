@@ -24,7 +24,7 @@
 	// 必须配置正常状态下的主题标示
     [EAThemeManager shareManager].normalThemeIdentifier = EAThemeNormal;
     
-**在需要设置夜间模式的控件调用UIView类目中的设置方法，在Block回调中根据主题的identifier设置该视图的对应状态。**
+**在需要设置夜间模式的控件调用UIView类目中的设置方法，在Block回调中根据主题的identifier设置该视图的对应状态：**
 
 	UITabBarController *rootViewController = (UITabBarController *)self.window.rootViewController;
     
@@ -45,7 +45,7 @@
 	// 开启黑色主题
 	[[EAThemeManager shareManager] displayThemeContentsWithThemeIdentifier:EAThemeBlack]; 
 	
-**可使用通知中心自定义监听改变主题事件**
+**可使用通知中心自定义监听改变主题事件：**
 
 	FOUNDATION_EXPORT NSString *const kEAChangeThemeNotification;
 	
@@ -63,7 +63,7 @@
     	NSLog(@"current theme is %@!", [EAThemeManager shareManager].currentThemeIdentifier);
 	}
 	
-**注：Block内存问题:**   
+**注：Block内存问题：**   
 在封装时已尽量让使用者避免内存的问题，如果只是对当前的view设置背景颜色，可以直接使用Block回调中的参数currentView,不会产生内存问题，更复杂的情况，EATheme已借引ReactiveCocoa中的内存管理的宏，方便大家使用（个人觉得这个宏真心好用）例如：
 	
 	@ea_weakify(self);
