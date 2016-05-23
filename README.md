@@ -1,12 +1,12 @@
 # EATheme/主题切换/夜间模式
 
-**安装**   
+**安装方式（两种）**   
    
-（1）使用CocoaPods,在Podfile中对应的target使用:   
+（1）使用CocoaPods的安装方式,在Podfile中对应的target使用: 
 
 	pod 'EATheme', '~> 1.1.1' 
 	
-（2）移步GitHub,点击[EAThemeSample](https://github.com/JinXinLiang/EAThemeSample)下载，将demo中的EATheme文件夹直接引入到你的工程。
+（2）直接导入类库的方式，移步GitHub,点击[EAThemeSample](https://github.com/JinXinLiang/EAThemeSample)下载，将demo中的EATheme文件夹直接引入到你的工程。
 **在项目中引入主头文件**
 
 	#import "EATheme.h"
