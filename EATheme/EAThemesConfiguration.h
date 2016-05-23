@@ -16,9 +16,10 @@
 
 
 /**
- *  customize every theme's identifier here
+ *  Customize every theme's identifier here
  */
 
+// 范例：下方设置了5种主题的标示
 static NSString *const EAThemeNormal = @"EAThemeNormal";
 static NSString *const EAThemeBlack = @"EAThemeBlack";
 static NSString *const EAThemeRed = @"EAThemeRed";
