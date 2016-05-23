@@ -12,7 +12,7 @@
 	#import "EATheme.h"
 **在EAThemesConfiguration.h中自定义主题的常量字符串作为应用程序每种主题的identifier，范例：**
 
-	// 这里设置了5种主题的标示
+	// 这里设置了5种主题的标识
     static NSString *const EAThemeNormal = @"EAThemeNormal";
 	static NSString *const EAThemeBlack = @"EAThemeBlack";
 	static NSString *const EAThemeRed = @"EAThemeRed";
@@ -21,7 +21,7 @@
     
 **- (BOOL)application: didFinishLaunchingWithOptions:方法中配置应用程序默认主题，即正常状态下的主题：**
 
-	// 必须配置正常状态下的主题标示
+	// 必须配置正常状态下的主题标识
     [EAThemeManager shareManager].normalThemeIdentifier = EAThemeNormal;
     
 **在需要设置夜间模式的控件调用UIView类目中的设置方法，在Block回调中根据主题的identifier设置该视图的对应状态：**
@@ -36,11 +36,11 @@
     }];
 
     
-**可通过EAThemeManager单例的currentThemeIdentifier属性随时获取当前的主题标示：**
+**可通过EAThemeManager单例的currentThemeIdentifier属性随时获取当前的主题标识：**
 
 	[[EAThemeManager shareManager] currentThemeIdentifier];
 
-**通过主题标示启动某个主题：**
+**通过主题标识启动某个主题：**
 
 	// 开启黑色主题
 	[[EAThemeManager shareManager] displayThemeContentsWithThemeIdentifier:EAThemeBlack]; 
