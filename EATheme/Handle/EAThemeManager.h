@@ -8,6 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
+/**
+ *  主题改变的监听事件
+ */
+FOUNDATION_EXPORT NSString *const kEAChangeThemeNotification;
+
+
 @interface EAThemeManager : NSObject
 
 // 设置正常状态下的主题标示（ps：必须设置）

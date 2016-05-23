@@ -19,11 +19,6 @@
 
 typedef void(^THEME_CONTENTS)(UIView *currentView, NSString *currentThemeIdentifier);
 
-/**
- *  主题改变的监听事件
- */
-extern NSString *const EAChangeThemeNotification;
-
 
 @interface UIView (EATheme)
 

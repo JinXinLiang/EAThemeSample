@@ -18,6 +18,7 @@
 
 - (void)dealloc {
     NSLog(@"dealloc");
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:kEAChangeThemeNotification object:nil];
 }
 
 - (void)viewDidLoad {
@@ -30,7 +31,14 @@
         [button setTitleColor:titleColor forState:UIControlStateNormal];
     }];
     
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(themeDidDisplay) name:kEAChangeThemeNotification object:nil];
+    
 
+}
+
+- (void)themeDidDisplay {
+    NSLog(@"current theme is %@!", [EAThemeManager shareManager].currentThemeIdentifier);
 }
 
 - (void)didReceiveMemoryWarning {

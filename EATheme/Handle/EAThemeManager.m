@@ -9,6 +9,9 @@
 #import "EAThemeManager.h"
 #import "UIView+EATheme.h"
 
+
+NSString *const kEAChangeThemeNotification = @"EAChangeThemeNotification";
+
 NSString *const EATheme = @"EATheme";
 
 @interface EAThemeManager ()
@@ -44,7 +47,7 @@ NSString *const EATheme = @"EATheme";
     if (identifier && ![identifier isEqualToString:self.currentThemeIdentifier]) {
         
         [self p_saveSettingWithThemeIdentifier:identifier];
-        [[NSNotificationCenter defaultCenter] postNotificationName:EAChangeThemeNotification object:nil];
+        [[NSNotificationCenter defaultCenter] postNotificationName:kEAChangeThemeNotification object:nil];
     }
 }
 

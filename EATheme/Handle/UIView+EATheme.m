@@ -10,9 +10,6 @@
 #import "EAThemeManager.h"
 #import <objc/runtime.h>
 
-NSString *const EAChangeThemeNotification = @"EAChangeThemeNotification";
-
-
 static void *EAViewThemesKey = "EAViewThemesKey";
 
 @interface UIView ()
@@ -25,7 +22,7 @@ static void *EAViewThemesKey = "EAViewThemesKey";
 
 - (void)ea_dealloc {
     
-    [[NSNotificationCenter defaultCenter] removeObserver:self name:EAChangeThemeNotification object:nil];
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:kEAChangeThemeNotification object:nil];
     
     [self ea_dealloc];
     
@@ -62,7 +59,7 @@ static void *EAViewThemesKey = "EAViewThemesKey";
     if (themeContents) {
         
         self.themeContents = themeContents;
-        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(p_changeTheme) name:EAChangeThemeNotification object:nil];
+        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(p_changeTheme) name:kEAChangeThemeNotification object:nil];
         [self p_changeTheme];
         
     }
