@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "EATheme"
-  s.version      = “1.1.1”
+  s.version      = "1.1.1"
   s.summary      = "Change your application’s theme!"
   s.homepage     = "https://github.com/JinXinLiang/EAThemeSample"
   s.license      = 'MIT'

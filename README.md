@@ -2,7 +2,7 @@
 
 **安装**   
    
-（1）使用CocoaPods,在Podfile中使用:   
+（1）使用CocoaPods,在Podfile中对应的target使用:   
 
 	pod 'EATheme', '~> 1.1.1' 
 	
