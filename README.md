@@ -19,7 +19,7 @@
 	static NSString *const EAThemeOrange = @"EAThemeOrange";
 	static NSString *const EAThemeBlue = @"EAThemeBlue";
     
-**- (BOOL)application: didFinishLaunchingWithOptions:方法中配置应用程序默认主题，即正常状态下的主题：**
+**-application: didFinishLaunchingWithOptions:方法中配置应用程序默认主题，即正常状态下的主题：**
 
 	// 必须配置正常状态下的主题标识
     [EAThemeManager shareManager].normalThemeIdentifier = EAThemeNormal;
