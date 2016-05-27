@@ -14,13 +14,13 @@
 
 #define ea_weakify(...) \
 ea_keywordify \
-metamacro_foreach_cxt(ea_weakify_,, __weak, __VA_ARGS__)
+ea_metamacro_foreach_cxt(ea_weakify_,, __weak, __VA_ARGS__)
 
 #define ea_strongify(...) \
 ea_keywordify \
 _Pragma("clang diagnostic push") \
 _Pragma("clang diagnostic ignored \"-Wshadow\"") \
-metamacro_foreach(ea_strongify_,, __VA_ARGS__) \
+ea_metamacro_foreach(ea_strongify_,, __VA_ARGS__) \
 _Pragma("clang diagnostic pop")
 
 #import "UIView+EATheme.h"
